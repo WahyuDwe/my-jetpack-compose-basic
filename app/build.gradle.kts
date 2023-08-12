@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.dwi.myjetpackcomposebasic"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.dwi.myjetpackcomposebasic"
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha12")
 }
